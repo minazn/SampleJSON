@@ -1,0 +1,85 @@
+#container {
+    margin: auto;
+    width: 100%;
+}
+
+.logo {
+    width: 30%;
+}
+
+.header-and-footer {
+    float: left;
+    height: 250px;
+    background-color: #CABBB7;
+    width: 100%;
+    /* from google color picker extension */
+}
+
+#head-logo {
+    position: absolute;
+    top: 30px;
+    right: 10%;
+}
+
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h3 {
+    float: left;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+#head-logo {
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    background-color: #C65252;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+#debit-card {
+    float: left;
+    width: 50%;
+}
+
+#scooter {
+    float: left;
+    width: 50%;
+}
+
+#footer {
+padding-top: 30px;
+width: 100%;
+text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
