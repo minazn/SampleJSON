@@ -7,11 +7,11 @@
     width: 30%;
 }
 
-.header-and-footer {
+#header {
     float: left;
     height: 250px;
-    background-color: #CABBB7;
     width: 100%;
+    background-color: #CABBB7;
     /* from google color picker extension */
 }
 
@@ -21,17 +21,10 @@
     right: 10%;
 }
 
-.center {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
 h3 {
     float: left;
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 20%;
 }
 
@@ -49,7 +42,7 @@ ul {
 }
 
 li {
-    float: left;
+    float: right;
 }
 
 li a {
@@ -61,25 +54,41 @@ li a {
     text-decoration: none;
 }
 
+.main {
+    margin-top: 70px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 h1 {
     text-align: center;
 }
 
+
+/* to fit both images into the width of class "main", both images 45% (which makes 90% in sum)
+and a margin in the middle of "main" of 10% (on the right and left of each image), so 
+that the images are symmetric in the wrapper */
+
 #debit-card {
     float: left;
-    width: 50%;
+    width: 45%;
+    margin-right: 5%;
 }
 
 #scooter {
     float: left;
-    width: 50%;
+    width: 45%;
+    margin-left: 5%;
 }
 
 #footer {
-padding-top: 30px;
-width: 100%;
-text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-
+    float: left;
+    margin-top: 30px;
+    height: 250px;
+    width: 100%;
+    background-color: #CABBB7;
+    /* from google color picker extension */
 }
+
