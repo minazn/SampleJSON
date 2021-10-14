@@ -1,0 +1,144 @@
+{
+  "events": [{
+      "sports": [{
+         "Capoeira" :[
+             {
+             "id": 1,
+             "title": "Capoeira Angola",
+             "name": "Siri de Mangue",
+             "date": "Monday",
+             "time": "19:00-20.30",
+             "location": [
+                 "Wien 1180",
+                 "Kastnergasse 28"
+             ],
+             "price": "10€",
+             "online": false     
+             },
+             {
+                "id": 2,
+                "title": "Capoeira Regional",
+                "name": "Abadá",
+                "date": "Wednesday",
+                "time": "19:30-21.00",
+                "location": [
+                    "Wien 1030",
+                    "Landstraße 14"
+                ],
+                "price": "12€",
+                "online": false     
+                }
+        ],
+        "Yoga":[
+            {
+                "id": 3,
+                "title": "Hatha Yoga",
+                "name": "House of Yoga",
+                "date": "Tuesday",
+                "time": "18:00-20.00",
+                "location": [
+                    "Wien 1010",
+                    "Deutschmeisterplatz 2"
+                ],
+                "price": "18€",
+                "online": true  
+            }
+        ],
+        "Volleyball":[
+            {
+                "id": 4,
+                "title": "Volleyball",
+                "name": "mit Nationalteamspielerin Monika",
+                "date": "Saturday",
+                "time": "18:00-19.30",
+                "location": [
+                    "Wien 1100",
+                    "Quellstraße 24"
+                ],
+                "price": "18€",
+                "online": false  
+            }
+        ],
+        "Fußball":[
+            {
+                "id": 5,
+                "title": "Frauenfußball",
+                "name": "UBF",
+                "date": "Wednesday, Saturday",
+                "time": "18:00-19.30",
+                "location": [
+                    "Wien 1100",
+                    "Quellstraße 24"
+                ],
+                "price": "18€",
+                "online": false  
+            }
+        ]
+      }],
+      "culture": [{
+          "conterts":[
+            {
+                "id": 6,
+                "title": "The Coders",
+                "date": "12.02.2022",
+                "time": "20:00-22.00",
+                "location": [
+                    "Wien 1020",
+                    "Praterallee 5"
+                ],
+                "price": "8€",
+                "online": false  
+            },{
+                "id": 7,
+                "title": "Marie Yieh",
+                "date": "28.05.2022",
+                "time": "20:00-22.00",
+                "location": [
+                    "Wien 1050",
+                    "Margareten 15"
+                ],
+                "price": "freie Spende",
+                "online": false  
+            },{
+                "id": 8,
+                "title": "Shantel",
+                "date": "15.12.2021",
+                "time": "20:30-22.30",
+                "location": [
+                    "Wien 1050",
+                    "WUK"
+                ],
+                "price": "€21",
+                "online": false  
+            }
+          ],
+          "literature":[
+            {
+                "id": 9,
+                "title": "How to React",
+                "date": "15.12.2022",
+                "time": "20:00-21.00",
+                "location": [
+                    "Wien 1140",
+                    "Hütteldorferstraße 111"
+                ],
+                "price": "freie Spende",
+                "online": true  
+            },{
+                "id": 10,
+                "title": "1001 Nights",
+                "date": "13.11.2021",
+                "time": "19:00-20.30",
+                "location": [
+                    "Wien 1070",
+                    "Pilgramgasse 84"
+                ],
+                "price": "freie Spende",
+                "online": false  
+            }
+          ]
+      }]
+
+  }]
+  
+}
